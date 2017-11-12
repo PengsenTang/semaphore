@@ -8,8 +8,6 @@ pthread_mutex_t mutex = PTHREAD_MUTEX_INITIALIZER;
 sem_t full;     //填充的个数
 sem_t empty;    //空槽的个数
  
-int top = 0;   //队尾
-int bottom = 0; //队头
  
 int total = 0; //
 int amount = 0;
